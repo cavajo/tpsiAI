@@ -3,18 +3,24 @@
     "id": 1,
     "name": "Mouse Wireless",
     "price": 20,
-    "stock": 10
+    "stock": 1
   },
   {
     "id": 2,
     "name": "Tastiera Meccanica",
     "price": 50,
-    "stock": 5
+    "stock": 4
   },
   {
     "id": 3,
     "name": "Cuffie Gaming",
     "price": 35,
     "stock": 8
+  },
+  {
+    "id": 4,
+    "name": "banana",
+    "price": 13,
+    "stock": 1
   }
 ]
