@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vista Admin</title>
+</head>
+
+<body>
+
+<h1>Vista Admin</h1>
+
+<h2>Aggiungi Prodotto</h2>
+<input type="text" id="productName" placeholder="Nome prodotto">
+<input type="number" id="productPrice" placeholder="Prezzo">
+<input type="number" id="productStock" placeholder="Stock">
+<button id="addProductBtn">Aggiungi prodotto</button>
+
+<h2>Aggiorna Stock</h2>
+<input type="number" id="stockProductId" placeholder="ID prodotto">
+<input type="number" id="newStock" placeholder="Nuovo stock">
+<button id="updateStockBtn">Aggiorna stock</button>
+
+<h2>Aggiungi Crediti Utente</h2>
+<input type="number" id="creditsUserId" placeholder="ID utente">
+<input type="number" id="bonusCredits" placeholder="Crediti bonus">
+<button id="addCreditsBtn">Aggiungi crediti</button>
+
+<h2>Lista Prodotti</h2>
+<div id="adminProducts"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
